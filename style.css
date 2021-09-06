@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1d2026;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 15px 5%;
+    box-shadow: 0 0 4px -2px rgb(255, 255, 255);
+}
+nav .main-logo img{
+    width: 250px;
+}
+nav .main-logo img:hover{
+    width: 250px;
+    pointer-events: stroke;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+nav ul li a:hover {
+    color: rgb(106, 255, 135);
+}
+.index-main-text-container {
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.index-main-text-container h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 75px;
+}
+.index-main-text-container p {
+    margin-top: 30px;
+}
+.index-main-text-container a {
+    text-decoration: none;
+    background: rgb(106, 255, 135);
+    padding: 14px 40px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.index-main-image-container {
+    position: absolute;
+    left: 22%;
+    width: 300px;
+    margin-top: 7%;
+}
+.drop-down{
+    display: none;
+}
+nav ul li .drop-down ul li a:hover {
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    color: rgb(106, 255, 135);
+}

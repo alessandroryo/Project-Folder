@@ -39,6 +39,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(106, 255, 135);
 }
+/* Index Main Text */
 .index-main-text-container {
     max-width: 600px;
     margin-top: 7%;
@@ -69,14 +70,66 @@ nav ul li a:hover {
     width: 300px;
     margin-top: 7%;
 }
-.drop-down{
-    display: none;
+/* Profile */
+/* Main Text */
+.introduction h2 {
+    margin-top: 100px;
+    text-align: center;
 }
-nav ul li .drop-down ul li a:hover {
-    display: block;
-    position: absolute;
-    background: white;
+.introduction p {
+    text-align: center;
+    padding: 0 400px;
     margin-top: 15px;
-    margin-left: -15px;
-    color: rgb(106, 255, 135);
+}
+/* Education */
+.education h2 {
+    margin-top: 70px;
+    text-align: center;
+}
+.education table {
+    margin-top: 15px;
+}
+.education tr {
+    margin-top: 0px;
+}
+.edu-year {
+    text-align: left;
+    padding-left: 450px;
+    font-family: 'Montserrat', sans-serif;
+}
+.edu-space {
+    text-align: left;
+    padding-left: 130px;
+    font-size: 60px;
+}
+.edu-school {
+    text-align: left;
+    padding-left: 130px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Organization */
+.organization h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+.organization table {
+    margin-top: 15px;
+}
+.organization tr {
+    margin-top: 0px;
+}
+.org-year {
+    text-align: left;
+    padding-left: 450px;
+    font-family: 'Montserrat', sans-serif;
+}
+.org-space {
+    text-align: left;
+    padding-left: 130px;
+    font-size: 60px;
+}
+.org-school {
+    text-align: left;
+    padding-left: 130px;
+    font-family: 'Montserrat', sans-serif;
 }

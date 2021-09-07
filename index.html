@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Showcase Website</title>
+    <title>Home | Showcase Website</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     <nav>
-         <div class="main-logo">
-              <a href="index.html"><img src="resources/main-logo.png"></a>
-         </div>
-         <ul>
+        <article class="main-logo">
+            <a href="index.html"><img src="resources/main-logo.png"></a>
+        </article>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="profile.html">Profile</a></li>
             <li><a href="dashboard.html">Dashboard</a></li>
@@ -23,39 +24,41 @@
             <li><a href="post.html">Post</a></li>
         </ul>
     </nav>
-    <div class="header">
+    <header class="index-header">
+        
+        <div class="index-main-text-container">
+            <h1>HBO-ICT?<br>Why?</h1>
+            <p>Kenapa saya memilih di jurusan HBO? Apa yang memotivasi saya? Sebelum itu,
+            kalian bisa melihat profil diri saya terlebih dahulu</p>
+            <a href="profile.html">Look at my profile</a>
+        </div>
         <div> 
             <img src="resources/home-image-1.png" class="index-main-image-container">
         </div>
-        <div class="index-main-text-container">
-            <h1>What<br>do you think?</h1>
-            <p>This my first website</p>
-            <a href="profile.html">Look at my profile</a>
-        </div>
-    </div>
+    </header>
     <section class="course">
-        <h1>Courses We Offer</h1>
+        <h1>My Motivation</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat.</p>
         <div class="course-row">
             <div class="course-col">
-                <h3>Intermediate</h3>
+                <h3>Heading 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat.</p>
             </div>
             <div class="course-col">
-                <h3>Degree</h3>
+                <h3>Heading 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat.</p>
             </div>
             <div class="course-col">
-                <h3>Post Graduation</h3>
+                <h3>Heading 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -63,5 +66,21 @@
             </div>
         </div>
     </section>
-</body>
+    <footer>
+        <article class="footer-content">
+            <h3>Showcase Website</h3>
+            <p>This is my showcase website</p>
+            <ul class="social-media">
+                <li><a href="facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/alessandroryo/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="youtube.com"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </article>
+        <article class="footer-bottom">
+            <p>copyright &copy; 2021 Ryo. designed by <span>Ryo</span></p>
+        </article>
+    </footer>    
+    </body>
 </html>

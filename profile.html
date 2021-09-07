@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     <nav>
-        <div class="main-logo">
-            <a href="index.html"><img src="resources/images/main-logo.png"></a>
-        </div>
+        <article class="main-logo">
+            <a href="index.html"><img src="resources/main-logo.png"></a>
+        </article>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="profile.html">Profile</a></li>
@@ -23,34 +24,83 @@
             <li><a href="post.html">Post</a></li>
         </ul>
     </nav>
-    <div class="introduction">
-        <h2>Hello! I'm Ryo</h2>
-        <h4>I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-        Just click “Edit Text” or double click me to add your own content and make changes to the font.
-        I’m a great place for you to tell a story and let your users know a little more about you.</h4>
-    </div>
-    <h2 class="edu-title">Education</h2>
-    <div class="edu-container">
-        <div class="edu-timeline">
-            <ul>
-                <li>
-                    <div class="edu-timeline-content">
-                        <h2 class="edu-date">2015-2018</h2>
-                        <h1>Saint Angela<br>Junior High School</h1>
-                        <p>"A student."</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="edu-timeline-content">
-                        <h2 class="edu-date">2018-2021</h2>
-                        <h1>Saint Angela<br>Senior High School</h1>
-                        <p>"A student."</p>
-                    </div>
-                </li>
-            </ul>
+    <div class="profile-header">
+        <div> 
+            <img src="resources/profile-picture-full.png" class="profile-main-image-container">
+        </div>
+        <div class="profile-main-text-container">
+            <h1>ALESSANDRO RYO</h1>
+            <h2>&#183 A STUDENT &#183</h2>
+            <article class="profile-data">
+                 <h4>Date Birth:</h4>
+                 <p>October 19th, 2003</p>
+                 <h4>Country:</h4>
+                 <p>Indonesia</p>
+                 <h4>Phone:</h4>
+                 <p>+62 812 2005 4082</p>
+                 <h4>Email:</h4>
+                 <p>alessandroryo@gmail.com<br>anan0002@hz.nl</p>
+                 <h4>Address:</h4>
+                 <p>Dortsmansstraat 2 4381 CZ Vlissingen</p>
+             </article>
         </div>
     </div>
-    <h2 class="org-title">Organization</h2>
+    <main>
+        <article class="course">
+            <article>
+                <h1>Hello! I'm Ryo</h1>
+                <p>Pada halaman ini, saya akan memberikan gambaran diri saya kepada kalian.<br>
+                Saya harap kalian bisa lebih tahu siapa diri saya.</p>
+            </article>
+            <article div class="course-row">
+                <article class="course-col">
+                    <h3>Where do I came from?</h3>
+                    <p>Saya berasal dari Indonesia. Salah satu negara dengan banyak kebudayaan
+                    dan bahasa.</p>
+                </article>
+                <article class="course-col">
+                    <h3>What are my hobbies?</h3>
+                    <p>Hobi saya sebenarnya tidak terlalu banyak, namun cukup menyenangkan.
+                    Saya sangat menyukai hal apapun tentang sepak bola. Saya juga senang bermain game,
+                    terlebih bersama dengan teman-teman. Dan hobi saya yang terakhir adalah tidur.</p>
+                </article>
+                <article class="course-col">
+                    <h3>What movie or song do I like?</h3>
+                    <p>Film yang paling saya sukai adalah film bergenre sci-fi ataupun action, tapi saya juga
+                    terbuka untuk menonton film-film lainnya. Kalau lagu, saya lebih suka lagu bergenre pop dan
+                    berasal dari Indonesia.</p>
+                </article>
+            </article>
+        </article> 
+        <article class="edu-title">
+            <h2>Education</h2>
+            <h4>Perjalanan hidup saya tidak lepas dari namanya pendidikan.</h4>
+        </article>
+        <article class="edu-container">
+            <article class="edu-timeline">
+                <ul>
+                    <li>
+                        <article class="edu-timeline-content">
+                            <h2 class="edu-date">2015-2018</h2>
+                            <h1>Saint Angela<br>Junior High School</h1>
+                            <p>Student</p>
+                        </article>
+                    </li>
+                    <li>
+                        <div class="edu-timeline-content">
+                            <h2 class="edu-date">2018-2021</h2>
+                            <h1>Saint Angela<br>Senior High School</h1>
+                            <p>Student</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </article>
+    <div class="org-title">
+        <h2>Organization</h2>
+        <h4>Pendidikan yang baik, harus dibarengi juga dengan kemampuan berorganisasi.
+        <br>Khususnya di masa SMA, saya sudah pernah mengikuti organisasi yang ada di sekolah.</h4>
+    </div>
     <div class="org-container">
         <div class="org-timeline">
             <ul>
@@ -70,6 +120,49 @@
                 </li>
             </ul>
         </div>
-    </div>  
+    </div>
+    <!-- <section class="course">
+        <h1>Hello! I'm Ryo</h1>
+        <p>Pada halaman ini, saya akan memberikan gambaran diri saya kepada kalian.<br>
+            Saya harap kalian bisa lebih tahu siapa diri saya.</p>
+        <div class="course-row">
+            <div class="course-col">
+                <h3>Where do I came from?</h3>
+                <p>Saya berasal dari Indonesia. Salah satu negara dengan banyak kebudayaan
+                dan bahasa.</p>
+            </div>
+            <div class="course-col">
+                <h3>What are my hobbies?</h3>
+                <p>Hobi saya sebenarnya tidak terlalu banyak, namun cukup menyenangkan.
+                Saya sangat menyukai hal apapun tentang sepak bola. Saya juga senang bermain game,
+                terlebih bersama dengan teman-teman. Dan hobi saya yang terakhir adalah tidur.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>What movie or song do I like?</h3>
+                <p>Film yang paling saya sukai adalah film bergenre sci-fi ataupun action, tapi saya juga
+                terbuka untuk menonton film-film lainnya. Kalau lagu, saya lebih suka lagu bergenre pop dan
+                berasal dari Indonesia.
+                </p>
+            </div>
+        </div>
+    </section> -->
+    </main>
+    <footer>
+        <article class="footer-content">
+            <h3>Showcase Website</h3>
+            <p>This is my showcase website</p>
+            <ul class="social-media">
+                <li><a href="facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/alessandroryo/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="youtube.com"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </article>
+        <article class="footer-bottom">
+            <p>copyright &copy; 2021 Ryo. designed by <span>Ryo</span></p>
+        </article>
+    </footer>    
 </body>
 </html>

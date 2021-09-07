@@ -8,6 +8,73 @@ body {
     background: #1d2026;
     color: white;
 }
+footer {
+    position: absolute;
+    background: black;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social-media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social-media li {
+    margin: 0 15px;
+}
+.social-media a {
+    text-decoration: none;
+    color: white;
+}
+.social-media a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+.social-media a:hover i {
+    color: rgb(106, 255, 135);
+}
+.footer-bottom {
+    background: black;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
 /* Navigation Bar */
 nav {
     display: flex;
@@ -39,10 +106,10 @@ nav ul li a:hover {
     color: rgb(106, 255, 135);
 }
 /* Index Main Text */
-.header {
+.index-header {
     min-height: 100vh;
     width: 100%;
-    background-image: url('../resources/home-image.png');
+    background-image: url('../resources/home-image.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -70,12 +137,16 @@ nav ul li a:hover {
     font-size: 18px;
     margin-top: 30px;
     border-radius: 30px;
+    transition: 0.3s;
+}
+.index-main-text-container a:hover {
+    background: rgb(21, 122, 41);
 }
 .index-main-image-container {
     position: absolute;
     left: 22%;
     width: 300px;
-    margin-top: 7%;
+    margin-top: -302px;
 }
 .course {
     width: 80%;
@@ -86,6 +157,7 @@ nav ul li a:hover {
 .course h1 {
     font-size: 36px;
     font-weight: 600;
+    color:rgb(106, 255, 135)
 }
 .course p {
     font-size: 14px;
@@ -107,6 +179,7 @@ nav ul li a:hover {
     box-sizing: border-box;
     color: black;
     transition: 0.5s;
+    margin-top: 20px;
 }
 .course-col h3 {
     text-align: center;
@@ -114,19 +187,51 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 .course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(106, 255, 135, 0.5);
+    box-shadow: 0 0 20px 0px rgba(106, 255, 136, 0.295);
 }
 /* Profile */
 /* Main Text */
-.introduction h2 {
-    margin-top: 100px;
-    text-align: center;
+.profile-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../resources/profile-image.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.introduction h4 {
-    margin-top: 10px;
-    text-align: center;
+.profile-main-text-container {
+    max-width: 600px;
+    margin-left: 50%;
+    padding-top: 8%;
+    position: relative;
+    color: black;
+}
+.profile-main-text-container h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 75px;
+}
+.profile-main-text-container h2 {
     margin-bottom: 30px;
     font-weight: 300;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.profile-main-text-container a:hover {
+    background: rgb(21, 122, 41);
+}
+.profile-main-image-container {
+    position: absolute;
+    left: 10%;
+    /* width: 500px; */
+    width: 1200px;
+    margin-top: 90px;
+}
+.profile-data p {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 /* Education */
 .edu-container {
@@ -146,6 +251,7 @@ nav ul li a:hover {
     max-width: 600px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 50px;
 }
 .edu-timeline ul {
     list-style: none;
@@ -238,9 +344,8 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
 }
-.org-title {
-    margin-top: 50px;
-    margin-bottom: 40px;
+.org-title h2, .edu-title h2 {
+    margin-top: 20px;
     text-align: center;
 }
 .org-timeline {
@@ -249,6 +354,7 @@ nav ul li a:hover {
     max-width: 600px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 50px;
 }
 .org-timeline ul {
     list-style: none;
@@ -283,6 +389,12 @@ nav ul li a:hover {
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
     color: rgb(106, 255, 135);
+}
+.org-title h4, .edu-title h4 {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    text-align: center;
 }
 @media only screen and (min-width: 768px) {
     .org-timeline::before {

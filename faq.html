@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
 </head>
 <body>
     <nav>
@@ -21,47 +22,83 @@
             <li><a href="profile.html">Profile</a></li>
             <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="faq.html">FAQ</a></li>
-            <li><a href="blog.html">Post</a></li>
+            <li><a href="blog.html">Blog</a></li>
         </ul>
     </nav>
-    <main class="faq-main">
-        <h1>Frequently Asked Questions</h1>
-        <div class="faq open"><!-- FAQ 1 -->
-            <div class="faq-text">
-                <h2>How can I pay for essential or premium plan?</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <main class="faq-page">
+        <section class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-container">
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item" id="question1">
+                        <a class="faq-accordion-link" href="#question1">
+                            How can you print a document from your laptop at HZ?
+                            <i class="icon ion-md-add"></i>
+                            <i class="icon ion-md-remove"></i>
+                        </a>
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse harum fugit suscipit similique. Vitae minus,
+                            voluptate quam repellat laudantium impedit inventore omnis iste?
+                            Ipsam ad fuga tempora hic, itaque exercitationem.</p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item" id="question2">
+                        <a class="faq-accordion-link" href="#question2">
+                            How can you scan a document a send it to your laptop at HZ?
+                            <i class="icon ion-md-add"></i>
+                            <i class="icon ion-md-remove"></i>
+                        </a>
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse harum fugit suscipit similique. Vitae minus,
+                            voluptate quam repellat laudantium impedit inventore omnis iste?
+                            Ipsam ad fuga tempora hic, itaque exercitationem.</p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item" id="question3">
+                        <a class="faq-accordion-link" href="#question3">
+                            What do you need to do when you are sick / show symptoms of coronavirus?
+                            <i class="icon ion-md-add"></i>
+                            <i class="icon ion-md-remove"></i>
+                        </a>
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse harum fugit suscipit similique. Vitae minus,
+                            voluptate quam repellat laudantium impedit inventore omnis iste?
+                            Ipsam ad fuga tempora hic, itaque exercitationem.</p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item" id="question4">
+                        <a class="faq-accordion-link" href="#question4">
+                            How can you book a project space in one of the wings?
+                            <i class="icon ion-md-add"></i>
+                            <i class="icon ion-md-remove"></i>
+                        </a>
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse harum fugit suscipit similique. Vitae minus,
+                            voluptate quam repellat laudantium impedit inventore omnis iste?
+                            Ipsam ad fuga tempora hic, itaque exercitationem.</p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item" id="question5">
+                        <a class="faq-accordion-link" href="#question5">
+                            What are the instructions if you want to park your car at the HZ parking lot?
+                            <i class="icon ion-md-add"></i>
+                            <i class="icon ion-md-remove"></i>
+                        </a>
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse harum fugit suscipit similique. Vitae minus,
+                            voluptate quam repellat laudantium impedit inventore omnis iste?
+                            Ipsam ad fuga tempora hic, itaque exercitationem.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <span class="faq-btn">&#8722;</span>
-        </div><!-- FAQ 1 End -->
-        <div class="faq"><!-- FAQ 2 -->
-            <div class="faq-text">
-                <h2>Can I cancel my Essentials or Premium plan subscription at any time?</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <span class="faq-btn">&#43;</span>
-        </div><!-- FAQ 2 End -->
-        <div class="faq"><!-- FAQ 3 -->
-            <div class="faq-text">
-                <h2>We need to add new users to our team. How will that be billed?</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <span class="faq-btn">&#43;</span>
-        </div><!-- FAQ 3 End -->
-        <div class="faq"><!-- FAQ 4 -->
-            <div class="faq-text">
-                <h2>My team wants to cancel its subscription. How do we do that? Can we get a refund?</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <span class="faq-btn">&#43;</span>
-        </div><!-- FAQ 4 End -->
-        <div class="faq"><!-- FAQ 5 -->
-            <div class="faq-text">
-                <h2>Do you offer discounts for non-profit organisations or educational institutions?</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-            <span class="faq-btn">&#43;</span>
-        </div><!-- FAQ 5 End -->
-    </main>
+        </section>
+    </main>    
     <footer>
         <article class="footer-content">
             <h3>Showcase Website</h3>

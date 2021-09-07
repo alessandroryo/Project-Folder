@@ -5,11 +5,19 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: #1d2026;
-    color: white;
+    /* background: #1d2026; */
+    /* color: white; */
+    /* background: lightblue; */
 }
-
 /* Navigation Bar */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('main-logo.png'), linear-gradient(rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 nav {
     display: flex;
     background-color: black;
@@ -72,64 +80,220 @@ nav ul li a:hover {
 }
 /* Profile */
 /* Main Text */
+
 .introduction h2 {
     margin-top: 100px;
     text-align: center;
 }
-.introduction p {
+.introduction h4 {
+    margin-top: 10px;
     text-align: center;
-    padding: 0 400px;
-    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 /* Education */
-.education h2 {
-    margin-top: 70px;
+.edu-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
     text-align: center;
 }
-.education table {
-    margin-top: 15px;
+.edu-timeline {
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
 }
-.education tr {
-    margin-top: 0px;
+.edu-timeline ul {
+    list-style: none;
 }
-.edu-year {
-    text-align: left;
-    padding-left: 450px;
-    font-family: 'Montserrat', sans-serif;
+.edu-timeline ul li {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.edu-space {
-    text-align: left;
-    padding-left: 130px;
-    font-size: 60px;
+.edu-timeline ul li:last-child {
+    margin-bottom: 0px;
 }
-.edu-school {
-    text-align: left;
-    padding-left: 130px;
-    font-family: 'Montserrat', sans-serif;
+.edu-timeline-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 4px;
+    color: black;
+}
+.edu-timeline-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: black;
+}
+.edu-timeline-content .edu-date {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(106, 255, 135);
+}
+@media only screen and (min-width: 768px) {
+    .edu-timeline::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background-color: rgb(106, 255, 135);
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .edu-timeline ul li {
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .edu-timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+    }
+    .edu-timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+    }
+    .edu-timeline ul li::after {
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(106, 255, 135);
+        border-radius: 50%;
+        top: 0;
+    }
+    .edu-timeline ul li:nth-child(odd)::after {
+        right: -40px;
+        transform: translateX(50%, -50%);
+    }
+    .edu-timeline ul li:nth-child(even)::after {
+        left: -40px;
+        transform: translateX(-50%, -50%);
+    }
+    .edu-timeline ul li:hover::after {
+        background-color: white;
+    }
+    .edu-timeline-content .edu-date {
+        position: absolute;
+        top: -30px;
+    }
 }
 /* Organization */
-.organization h2 {
-    margin-top: 30px;
+.org-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.org-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
     text-align: center;
 }
-.organization table {
-    margin-top: 15px;
+.org-timeline {
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
 }
-.organization tr {
-    margin-top: 0px;
+.org-timeline ul {
+    list-style: none;
 }
-.org-year {
-    text-align: left;
-    padding-left: 450px;
-    font-family: 'Montserrat', sans-serif;
+.org-timeline ul li {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.org-space {
-    text-align: left;
-    padding-left: 130px;
-    font-size: 60px;
+.org-timeline ul li:last-child {
+    margin-bottom: 0px;
 }
-.org-school {
-    text-align: left;
-    padding-left: 130px;
-    font-family: 'Montserrat', sans-serif;
+.org-timeline-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 4px;
+    color: black;
+}
+.org-timeline-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: black;
+}
+.org-timeline-content .org-date {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(106, 255, 135);
+}
+@media only screen and (min-width: 768px) {
+    .org-timeline::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background-color: rgb(106, 255, 135);
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .org-timeline ul li {
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .org-timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+    }
+    .org-timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+    }
+    .org-timeline ul li::after {
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(106, 255, 135);
+        border-radius: 50%;
+        top: 0;
+    }
+    .org-timeline ul li:nth-child(odd)::after {
+        right: -40px;
+        transform: translateX(50%, -50%);
+    }
+    .org-timeline ul li:nth-child(even)::after {
+        left: -40px;
+        transform: translateX(-50%, -50%);
+    }
+    .org-timeline ul li:hover::after {
+        background-color: white;
+    }
+    .org-timeline-content .org-date {
+        position: absolute;
+        top: -30px;
+    }
 }

@@ -662,3 +662,63 @@ section .faq {
 .study-cards-item:last-child {
   margin-bottom: 50px;
 }
+.post-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.post-title h1 {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.post-column-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.post-card {
+  width: 30%;
+  background: white;
+  color: black;
+  margin-bottom: 30px;
+}
+.post-card img {
+  width: 100%;
+}
+.post-panel {
+  padding: 5%;
+  box-shadow: rgba(221, 221, 221, 0.808);
+  border-radius: 10px;
+}
+span.post-date {
+  font-weight: bold;
+  color: rgb(106, 255, 135);
+}
+.post-card a {
+  text-decoration: none;
+  color: black;
+}
+.post-breaker {
+  display: inline-block;
+  height: 4px;
+  width: 70%;
+  position: relative;
+  border-radius: 4px;
+  background-color: rgb(106, 255, 135);
+}
+@media screen and (max-width: 786px) {
+  .post-card {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .post-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

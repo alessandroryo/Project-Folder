@@ -604,3 +604,60 @@ section .faq {
 .faq-accordion-item:target .faq-accordion-link .ion-md-remove {
     display: block;
 }
+
+.study-status {
+  margin-bottom: 3rem;
+}
+.study-status h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  margin-bottom: -30px;
+}
+.study-quartile h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(106, 255, 135);
+}
+.study-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  color: black;
+  margin: auto;
+}
+.study-cards-item {
+  display: flex;
+  background: white;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
+  justify-content: space-between;
+  height: 200px;
+}
+.study-cards-progress {
+  background: rgb(106, 255, 135);
+  width: 500px;
+  height: 25%;
+  border-radius: 1rem;
+  position:relative;
+  overflow: hidden;
+}
+.study-cards-progress::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 221, 221, 0.808);
+  position: absolute;
+  left: 0%;
+}
+.study-cards-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.study-cards-item:last-child {
+  margin-bottom: 50px;
+}

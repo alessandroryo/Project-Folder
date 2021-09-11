@@ -7,19 +7,18 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #1d2026;
   color: white;
-  overflow-x: hidden;;
+  overflow-x: hidden;
 }
 /* Navigation Bar */
 nav {
   display: flex;
   background-color: black;
   justify-content: space-around;
-  height: 50px;
+  height: 80px;
   align-items: center;
   box-shadow: 0 0 4px -2px rgb(255, 255, 255);
   color: white;
   z-index: 3;
-  width: 100vw;
 }
 nav .main-logo img{
   width: 250px;
@@ -33,7 +32,7 @@ nav ul {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 nav ul li a:hover {
   color: rgb(106, 255, 135);
@@ -79,15 +78,12 @@ nav ul li a:hover {
   opacity: 0;
   transform: scale(0);
 }
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
   nav ul {
       width: 50%;
   }
 }
 @media screen and (max-width: 576px) {
-  body {
-    overflow-x: hidden;
-  }
   .menu-toggle {
     display: flex;
   }
@@ -110,7 +106,7 @@ nav ul li a:hover {
     opacity: 1;
     transform: translateX(0);
   }
-} */
+}
 footer {
   position: absolute;
   background: black;
@@ -225,12 +221,13 @@ footer {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .course h1 {
   font-size: 36px;
   font-weight: 600;
-  color:rgb(106, 255, 135)
+  color:rgb(106, 255, 135);
+  margin-bottom: 20px;
 }
 .course p {
   font-size: 14px;
@@ -519,10 +516,10 @@ footer {
     }
 }
 /* Dashboard */
-/* .dashboard-page {
+.dashboard-page {
   background-image: url(../resources/study-pattern.png);
   margin-top: 0%;;
-} */
+}
 .study-status {
   margin-bottom: 3rem;
 }
@@ -546,11 +543,6 @@ footer {
   margin: auto;
 }
 @media screen and (max-width: 786px) {
-  /* .dashboard-page {
-    background-image: url(../resources/study-pattern.png);
-    margin-top: 0%;;
-    width: 100vh;
-  } */
   .study-cards {
     width: 50%;
     margin-bottom: 30px;
@@ -627,7 +619,7 @@ footer {
 }
 .study-cards-progress {
   background: rgb(106, 255, 135);
-  width: 80%;
+  width: auto;
   height: 30px;
   border-radius: 1rem;
   position: relative;
@@ -649,6 +641,85 @@ footer {
 }
 .study-cards-item:last-child {
   margin-bottom: 50px;
+}
+.nbsa-study-cards {
+  display: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  color: black;
+  margin: auto;
+  height: 9;
+}
+@media screen and (max-width: 786px) {
+  .nbsa-study-cards {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .nbsa-tudy-cards-progress {
+    background: rgb(106, 255, 135);
+    width: 10%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .nbsa-study-cards-progress::after {
+    content: '';
+    width: 10%;
+    height: 100%;
+    background-color: rgba(221, 221, 221, 0.808);
+    position: absolute;
+    left: 0%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nbsa-study-cards {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .nbsa-study-cards-progress {
+    background: rgb(106, 255, 135);
+    width: 10%;
+    height: auto;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .nbsa-study-cards-progress::after {
+    content: '';
+    width: 10%;
+    height: 100%;
+    background-color: rgba(221, 221, 221, 0.808);
+    position: absolute;
+    left: 0%;
+  }
+}
+.nbsa-study-cards-item {
+  display: flex;
+  background: white;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
+  justify-content: space-between;
+  height: 100%;
+}
+.nbsa-study-cards-progress {
+  background: rgb(106, 255, 135);
+  width: 80%;
+  height: 30px;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.nbsa-study-cards-progress::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 221, 221, 0.808);
+  position: absolute;
+  left: 0%;
 }
 /* FAQ */
 .faq-page {
@@ -799,4 +870,44 @@ span.post-date {
     width: 100%;
     margin-bottom: 30px;
   }
+}
+/* SWOT */
+.swot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.swot h2 {
+  display: absolute;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.swot-card {
+ background-color: white;
+ width: 220px;
+ height: 280px;
+ margin: 10px;
+}
+.swot-card h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: black;
+}
+.swot-card li {
+  padding: 10px;
+  color: black;
+  text-align: left;
+  list-style-position: inside;
+}
+.swot-card span {
+  display: inline-block;
+  height: 4px;
+  width: 80%;
+  position: relative;
+  border-radius: 4px;
+  background-color: rgb(106, 255, 135);
+  margin: 10px;
 }

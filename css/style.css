@@ -520,6 +520,7 @@ footer {
 .dashboard-page {
   background-image: url(../resources/study-pattern.png);
   margin-top: 0%;
+  overflow-x: hidden;
 }
 .study-status {
   margin-bottom: 3rem;

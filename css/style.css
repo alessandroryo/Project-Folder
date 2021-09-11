@@ -547,7 +547,7 @@ footer {
   .dashboard-page {
     background-image: url(../resources/study-pattern.png);
     margin-top: 0%;;
-    width: fit-content;
+    width: 100vh;
   }
   .study-cards {
     width: 50%;

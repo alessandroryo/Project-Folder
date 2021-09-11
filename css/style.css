@@ -519,8 +519,7 @@ footer {
 /* Dashboard */
 .dashboard-page {
   background-image: url(../resources/study-pattern.png);
-  margin-top: 0%;
-  overflow-x: hidden;
+  margin-top: 0%;;
 }
 .study-status {
   margin-bottom: 3rem;
@@ -545,6 +544,11 @@ footer {
   margin: auto;
 }
 @media screen and (max-width: 786px) {
+  .dashboard-page {
+    background-image: url(../resources/study-pattern.png);
+    margin-top: 0%;;
+    width: fit-content;
+  }
   .study-cards {
     width: 50%;
     margin-bottom: 30px;
@@ -575,6 +579,11 @@ footer {
   }
 }
 @media screen and (max-width: 576px) {
+  .dashboard-page {
+    background-image: url(../resources/study-pattern.png);
+    margin-top: 0%;;
+    width: fit-content;
+  }
   .study-cards {
     width: 50%;
     margin-bottom: 30px;

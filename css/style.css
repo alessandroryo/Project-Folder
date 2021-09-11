@@ -556,7 +556,6 @@ footer {
     height: 30px;
     border-radius: 1rem;
     position: relative;
-    overflow: hidden;
     margin-top: 15px;
   }
 }
@@ -567,12 +566,27 @@ footer {
   }
   .study-cards-progress {
     background: rgb(106, 255, 135);
-    width: 10px;
-    height: 30px;
+    width: 10%;
+    height: auto;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 5px;
+  }
+  .study-cards-progress::after {
+    content: '';
+    width: 10%;
+    height: 100%;
+    background-color: rgba(221, 221, 221, 0.808);
+    position: absolute;
+    left: 0%;
+  }
+  .study-cards-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 60%;
+    width: 100%;
   }
 }
 .study-cards-item {
@@ -587,7 +601,7 @@ footer {
 }
 .study-cards-progress {
   background: rgb(106, 255, 135);
-  width: 300px;
+  width: 80%;
   height: 30px;
   border-radius: 1rem;
   position: relative;

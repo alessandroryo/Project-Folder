@@ -84,8 +84,8 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  nav {
-    width: 100vw;
+  body {
+    width: fit-content;
   }
   .menu-toggle {
     display: flex;

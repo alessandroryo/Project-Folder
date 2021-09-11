@@ -19,6 +19,7 @@ nav {
   box-shadow: 0 0 4px -2px rgb(255, 255, 255);
   color: white;
   z-index: 3;
+  width: 100vw;
 }
 nav .main-logo img{
   width: 250px;

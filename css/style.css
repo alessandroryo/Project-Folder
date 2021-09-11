@@ -8,6 +8,7 @@ body {
   background: #1d2026;
   color: white;
   overflow-x: hidden;
+  width: auto;
 }
 /* Navigation Bar */
 nav {

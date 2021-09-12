@@ -7,7 +7,6 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #1d2026;
   color: white;
-  overflow-x: hidden;
 }
 /* Navigation Bar */
 nav {
@@ -101,13 +100,11 @@ nav ul li a:hover {
       justify-content: space-evenly;
       z-index: 1;
       width: 80%;
-      /* transform: translateX(100%); */
       transition: all 1s;
       opacity: 0;
   }
   nav ul.slide {
     opacity: 1;
-    /* transform: translateX(0); */
   }
 }
 footer {
@@ -724,6 +721,17 @@ footer {
     justify-content: space-between;
     font-size: 60%;
     width: 100%;
+  }
+  .study-cards-item {
+    display: flex;
+    background: white;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
+    justify-content: space-between;
+    height: 100%;
+    width: 300px;
   }
 }
 .study-cards-item {

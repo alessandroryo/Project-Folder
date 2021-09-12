@@ -244,6 +244,14 @@ footer {
   font-weight: 1000;
   color: rgb(106, 255, 135);
 }
+.index-text p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 .index p a:hover {
   text-decoration: none;
   color: rgb(21, 122, 41);
@@ -269,8 +277,25 @@ footer {
   font-weight: 600;
   margin: 10px 0;
 }
-.index-col:hover {
-  box-shadow: 0 0 20px 0px rgba(106, 255, 136, 0.295);
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .index-main-text-container {
+    max-width: 576px;
+    margin-left: 5%;
+  }
+  .index-main-image-container {
+    position: absolute;
+    left: 5%;
+    width: 235px;
+    margin-top: 20px;
+  }
+  .index-row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 /* Profile */
 .profile-header {
@@ -372,9 +397,6 @@ footer {
   font-weight: 600;
   margin: 10px 0;
 }
-.profile-col:hover {
-  box-shadow: 0 0 20px 0px rgba(106, 255, 136, 0.295);
-}
 @media screen and (max-width: 768px) {
   .profile-main-image-container {
     position: absolute;
@@ -396,7 +418,13 @@ footer {
     padding-top: 8%;
     position: relative;
     color: black;
-}
+  }
+  .profile-row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 /* Profile Education */
 .edu-container {

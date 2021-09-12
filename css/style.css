@@ -990,6 +990,64 @@ span.post-date {
     margin-bottom: 30px;
   }
 }
+/*  */
+.answer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.answer h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color:rgb(106, 255, 135);
+  margin-bottom: 20px;
+}
+.answer p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.answer p a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: rgb(106, 255, 135);
+}
+.answer-text p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.answer p a:hover {
+  text-decoration: none;
+  color: rgb(21, 122, 41);
+}
+.answer-row {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.answer-col {
+  flex-basis: 31%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  color: black;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+.answer-col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
 /* SWOT */
 .swot {
   display: flex;

@@ -731,7 +731,7 @@ footer {
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
     justify-content: space-between;
     height: 100%;
-    width: 250px;
+    width: 50px;
   }
 }
 .study-cards-item {
@@ -743,6 +743,7 @@ footer {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
   justify-content: space-between;
   height: 100%;
+  width: auto;
 }
 .study-cards-progress {
   background: rgb(106, 255, 135);

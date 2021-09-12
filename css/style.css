@@ -16,7 +16,6 @@ nav {
   justify-content: space-around;
   height: 80px;
   align-items: center;
-  box-shadow: 0 0 4px -2px rgb(255, 255, 255);
   color: white;
   z-index: 3;
 }
@@ -217,30 +216,40 @@ footer {
   width: 300px;
   margin-top: -302px;
 }
-.course {
+.index {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
-.course h1 {
+.index h1 {
   font-size: 36px;
   font-weight: 600;
   color:rgb(106, 255, 135);
   margin-bottom: 20px;
 }
-.course p {
+.index p {
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+  margin-bottom: 30px;
 }
-.course-row {
+.index p a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: rgb(106, 255, 135);
+}
+.index p a:hover {
+  text-decoration: none;
+  color: rgb(21, 122, 41);
+}
+.index-row {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
-.course-col {
+.index-col {
   flex-basis: 31%;
   background: white;
   border-radius: 10px;
@@ -251,56 +260,139 @@ footer {
   transition: 0.5s;
   margin-top: 20px;
 }
-.course-col h3 {
+.index-col h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
-.course-col:hover {
+.index-col:hover {
   box-shadow: 0 0 20px 0px rgba(106, 255, 136, 0.295);
 }
 /* Profile */
 .profile-header {
     min-height: 100vh;
     width: 100%;
-    background-image: url('../resources/profile-image.jpg');
+    background-color: white;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-image: url(../resources/profile-picture-full.png);
 }
 .profile-main-text-container {
-    max-width: 600px;
-    margin-left: 50%;
+    max-width: 200px;
+    margin-left: 15%;
     padding-top: 8%;
     position: relative;
     color: black;
 }
 .profile-main-text-container h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    line-height: 75px;
+    line-height: 50px;
+    word-wrap:normal;
 }
 .profile-main-text-container h2 {
     margin-bottom: 30px;
     font-weight: 300;
     margin-top: -10px;
     margin-left: 10px;
-}
-.profile-main-text-container a:hover {
-    background: rgb(21, 122, 41);
+    line-height: 50px;
 }
 .profile-main-image-container {
     position: absolute;
-    left: 10%;
-    /* width: 500px; */
-    width: 1200px;
-    margin-top: 90px;
+    left: 50%;
+    width: 500px;
+    padding-top: 8%;
 }
 .profile-data p {
     margin-top: 0%;
     margin-bottom: 20px;
     margin-left: 10px;
+    line-height: 20px;
+}
+.profile {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+.profile h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color:rgb(106, 255, 135);
+  margin-bottom: 20px;
+}
+.profile p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.profile-text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.profile p a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: rgb(106, 255, 135);
+}
+.profile p a:hover {
+  text-decoration: none;
+  color: rgb(21, 122, 41);
+}
+.profile-row {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-col {
+  flex-basis: 31%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  color: black;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+.profile-col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.profile-col:hover {
+  box-shadow: 0 0 20px 0px rgba(106, 255, 136, 0.295);
+}
+@media screen and (max-width: 768px) {
+  .profile-main-image-container {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    padding-top: 20%;
+}
+}
+@media screen and (max-width: 576px) {
+  .profile-main-image-container {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-top: 15%;
+  }
+  .profile-main-text-container {
+    max-width: 200px;
+    margin-left: 10%;
+    padding-top: 8%;
+    position: relative;
+    color: black;
+}
 }
 /* Profile Education */
 .edu-container {
@@ -308,11 +400,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.edu-title {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    text-align: center;
 }
 .edu-timeline {
     width: 80%;
@@ -415,6 +502,7 @@ footer {
 }
 .org-title h2, .edu-title h2 {
     margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 .org-timeline {
@@ -549,7 +637,7 @@ footer {
   }
   .study-cards-progress {
     background: rgb(106, 255, 135);
-    width: 10%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
     position: relative;
@@ -558,7 +646,7 @@ footer {
   }
   .study-cards-progress::after {
     content: '';
-    width: 10%;
+    width: 100%;
     height: 100%;
     background-color: rgba(221, 221, 221, 0.808);
     position: absolute;
@@ -576,7 +664,6 @@ footer {
   .dashboard-page {
     background-image: url(../resources/study-pattern.png);
     margin-top: 0%;;
-    width: fit-content;
   }
   .study-cards {
     width: 50%;
@@ -584,7 +671,7 @@ footer {
   }
   .study-cards-progress {
     background: rgb(106, 255, 135);
-    width: 10%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
     position: relative;
@@ -593,7 +680,7 @@ footer {
   }
   .study-cards-progress::after {
     content: '';
-    width: 10%;
+    width: 100%;
     height: 100%;
     background-color: rgba(221, 221, 221, 0.808);
     position: absolute;
@@ -619,7 +706,7 @@ footer {
 }
 .study-cards-progress {
   background: rgb(106, 255, 135);
-  width: auto;
+  width: 150px;
   height: 30px;
   border-radius: 1rem;
   position: relative;
@@ -628,7 +715,7 @@ footer {
 }
 .study-cards-progress::after {
   content: '';
-  width: 100%;
+  width: 150px;
   height: 100%;
   background-color: rgba(221, 221, 221, 0.808);
   position: absolute;
@@ -656,7 +743,7 @@ footer {
     width: 50%;
     margin-bottom: 30px;
   }
-  .nbsa-tudy-cards-progress {
+  .nbsa-study-cards-progress {
     background: rgb(106, 255, 135);
     width: 10%;
     border-radius: 1rem;

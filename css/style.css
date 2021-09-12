@@ -83,8 +83,9 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  * {
+  body {
     max-width: 576px;
+    overflow-x: hidden;
   }
   .menu-toggle {
     display: flex;

@@ -83,13 +83,16 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 576px) {
+  * {
+    max-width: 576px;
+  }
   .menu-toggle {
     display: flex;
   }
   nav ul {
       position: absolute;
       right: 0;
-      top: 50px;
+      top: 80px;
       height: 100vh;
       flex-direction: column;
       background-color:black;

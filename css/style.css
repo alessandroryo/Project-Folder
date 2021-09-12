@@ -724,14 +724,14 @@ footer {
   }
   .study-cards-item {
     display: flex;
-    background: red;
+    background: aqua;
     border-radius: 1rem;
     margin: 1rem 0rem;
     padding: 2rem;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.295);
     justify-content: space-between;
     height: 100%;
-    width: 300px;
+    width: 100px;
   }
 }
 .study-cards-item {

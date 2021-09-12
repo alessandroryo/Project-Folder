@@ -724,7 +724,7 @@ footer {
   }
   .study-cards-item {
     display: flex;
-    background: aqua
+    background: red;
     border-radius: 1rem;
     margin: 1rem 0rem;
     padding: 2rem;
@@ -736,7 +736,7 @@ footer {
 }
 .study-cards-item {
   display: flex;
-  background: white;
+  background: red;
   border-radius: 1rem;
   margin: 1rem 0rem;
   padding: 2rem;

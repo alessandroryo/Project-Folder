@@ -102,6 +102,7 @@ nav ul li a:hover {
       width: 80%;
       transition: all 1s;
       opacity: 0;
+      visibility: hidden;
   }
   nav ul.slide {
     opacity: 1;

@@ -271,6 +271,7 @@ footer {
   border-radius: 30px;
   transition: 0.3s;
   opacity: 1;
+  position: relative;
 }
 .user-icon {
   opacity: 0;

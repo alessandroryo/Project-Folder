@@ -1081,7 +1081,7 @@ span.post-date {
     justify-content: space-between;
     flex-direction: column;
   }
-  .prog-exp-title h1 {
+  .answer-title h1 {
     font-size: 60px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -1096,7 +1096,7 @@ span.post-date {
     justify-content: space-between;
     flex-direction: column;
   }
-  .prog-exp-title h1 {
+  .answer-title h1 {
     font-size: 60px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;

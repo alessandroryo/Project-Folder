@@ -819,7 +819,7 @@ footer {
 }
 @media screen and (max-width: 576px) {
   .nbsa-study-cards {
-    width: 50%;
+    width: 60%;
     margin-bottom: 30px;
   }
   .nbsa-study-cards-progress {

@@ -1074,6 +1074,14 @@ span.post-date {
   font-weight: 600;
   margin: 10px 0;
 }
+@media screen and (max-width: 576px) {
+  .answer-row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
 /* SWOT */
 .swot {
   display: flex;

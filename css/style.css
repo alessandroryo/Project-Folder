@@ -1074,6 +1074,21 @@ span.post-date {
   font-weight: 600;
   margin: 10px 0;
 }
+@media screen and (max-width: 786px) {
+  .answer-row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .prog-exp-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 55px;
+    padding-top: 25%;
+  }
+}
 @media screen and (max-width: 576px) {
   .answer-row {
     margin-top: 5px;

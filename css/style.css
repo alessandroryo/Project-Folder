@@ -197,20 +197,6 @@ footer {
 .index-main-text-container p {
   margin-top: 30px;
 }
-.index-main-text-container a {
-  text-decoration: none;
-  background: rgb(106, 255, 135);
-  padding: 14px 40px;
-  display: inline-block;
-  color: white;
-  font-size: 18px;
-  margin-top: 30px;
-  border-radius: 30px;
-  transition: 0.3s;
-}
-.index-main-text-container a:hover {
-  background: rgb(21, 122, 41);
-}
 .index-main-image-container {
   position: absolute;
   left: 22%;
@@ -274,6 +260,21 @@ footer {
   font-weight: 600;
   margin: 10px 0;
 }
+.user-button-text {
+  text-decoration: none;
+  background: rgb(106, 255, 135);
+  padding: 14px 40px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+  opacity: 1;
+}
+.user-icon {
+  opacity: 0;
+}
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 576px) {
@@ -292,6 +293,20 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+  .user-icon {
+    text-decoration: none;
+    background: rgb(106, 255, 135);
+    padding: 14px 20px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    opacity: 1;
+    margin-left: -243px;
+  }
+  .user-button-text {
+    opacity: 0;
   }
 }
 /* Profile */

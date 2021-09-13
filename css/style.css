@@ -274,6 +274,7 @@ footer {
 }
 .user-icon {
   opacity: 0;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
 }

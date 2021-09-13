@@ -1081,6 +1081,13 @@ span.post-date {
     justify-content: space-between;
     flex-direction: column;
   }
+  .prog-exp-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 75px;
+    padding-top: 25%;
+  }
 }
 /* SWOT */
 .swot {

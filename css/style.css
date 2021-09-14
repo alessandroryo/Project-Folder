@@ -76,11 +76,6 @@ nav ul li a:hover {
   opacity: 0;
   transform: scale(0);
 }
-@media screen and (max-width: 768px){
-  nav ul {
-      width: 50%;
-  }
-}
 @media screen and (max-width: 576px) {
   body {
     max-width: 576px;
@@ -288,8 +283,6 @@ footer {
 .opinion-image img {
   width: 200px;
 }
-@media screen and (max-width: 768px) {
-}
 @media screen and (max-width: 576px) {
   .index-main-text-container {
     max-width: 576px;
@@ -422,14 +415,6 @@ footer {
   font-weight: 600;
   margin: 10px 0;
 }
-@media screen and (max-width: 768px) {
-  .profile-main-image-container {
-    position: absolute;
-    left: 50%;
-    width: 300px;
-    padding-top: 20%;
-}
-}
 @media screen and (max-width: 576px) {
   .profile-main-image-container {
     position: absolute;
@@ -500,56 +485,6 @@ footer {
     font-family: 'Poppins', sans-serif;
     color: rgb(106, 255, 135);
 }
-@media only screen and (min-width: 768px) {
-    .edu-timeline::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 2px;
-        background-color: rgb(106, 255, 135);
-        left: 50%;
-        transform: translate(-50%);
-    }
-    .edu-timeline ul li {
-        width: 50%;
-        margin-bottom: 50px;
-        position: relative;
-    }
-    .edu-timeline ul li:nth-child(odd) {
-        float: left;
-        clear: right;
-        transform: translateX(-30px);
-    }
-    .edu-timeline ul li:nth-child(even) {
-        float: right;
-        clear: left;
-        transform: translateX(30px);
-    }
-    .edu-timeline ul li::after {
-        content: '';
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        background-color: rgb(106, 255, 135);
-        border-radius: 50%;
-        top: 0;
-    }
-    .edu-timeline ul li:nth-child(odd)::after {
-        right: -40px;
-        transform: translateX(50%, -50%);
-    }
-    .edu-timeline ul li:nth-child(even)::after {
-        left: -40px;
-        transform: translateX(-50%, -50%);
-    }
-    .edu-timeline ul li:hover::after {
-        background-color: white;
-    }
-    .edu-timeline-content .edu-date {
-        position: absolute;
-        top: -30px;
-    }
-}
 /* Profile Organization */
 .org-container {
     width: 100%;
@@ -609,56 +544,6 @@ footer {
     margin-top: 10px;
     margin-bottom: 70px;
     text-align: center;
-}
-@media only screen and (min-width: 768px) {
-    .org-timeline::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 2px;
-        background-color: rgb(106, 255, 135);
-        left: 50%;
-        transform: translate(-50%);
-    }
-    .org-timeline ul li {
-        width: 50%;
-        margin-bottom: 50px;
-        position: relative;
-    }
-    .org-timeline ul li:nth-child(odd) {
-        float: left;
-        clear: right;
-        transform: translateX(-30px);
-    }
-    .org-timeline ul li:nth-child(even) {
-        float: right;
-        clear: left;
-        transform: translateX(30px);
-    }
-    .org-timeline ul li::after {
-        content: '';
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        background-color: rgb(106, 255, 135);
-        border-radius: 50%;
-        top: 0;
-    }
-    .org-timeline ul li:nth-child(odd)::after {
-        right: -40px;
-        transform: translateX(50%, -50%);
-    }
-    .org-timeline ul li:nth-child(even)::after {
-        left: -40px;
-        transform: translateX(-50%, -50%);
-    }
-    .org-timeline ul li:hover::after {
-        background-color: white;
-    }
-    .org-timeline-content .org-date {
-        position: absolute;
-        top: -30px;
-    }
 }
 /* Dashboard */
 .dashboard-page {

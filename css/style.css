@@ -177,6 +177,9 @@ footer {
   font-weight: 200;
 }
 /* Index Main Text */
+.main-background {
+  background-image: url(../resources/main-pattern.png);
+}
 .index-header {
   min-height: 100vh;
   width: 100%;
@@ -1020,7 +1023,7 @@ span.post-date {
 }
 /*  */
 .answer {
-  width: 80%;
+  width: 40%;
   margin: auto;
   text-align: center;
   padding-top: 40px;
@@ -1032,9 +1035,9 @@ span.post-date {
   margin-bottom: 20px;
 }
 .answer p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 22px;
+  line-height: 24px;
   padding: 10px;
   margin-bottom: 30px;
 }
@@ -1076,7 +1079,16 @@ span.post-date {
   font-weight: 600;
   margin: 10px 0;
 }
+.answer figcaption:last-child {
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 786px) {
+  .answer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+  }
   .answer-row {
     margin-top: 5px;
     display: flex;
@@ -1092,6 +1104,12 @@ span.post-date {
   }
 }
 @media screen and (max-width: 576px) {
+  .answer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+  }
   .answer-row {
     margin-top: 5px;
     display: flex;
@@ -1105,6 +1123,10 @@ span.post-date {
     line-height: 55px;
     padding-top: 25%;
   }
+}
+/*  */
+.ict-fow-image {
+  width: 400px;
 }
 /* SWOT */
 .swot {

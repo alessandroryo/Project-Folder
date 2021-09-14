@@ -1176,7 +1176,51 @@ span.post-date {
     width: 300px;
   }
 }
+.prog-exp-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../resources/prog-exp-background.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.prog-exp-main-text-container {
+  max-width: 600px;
+  margin-left: 50%;
+}
+.prog-exp-main-text-container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  line-height: 75px;
+  padding-top: 25%;
+}
+.prog-exp-main-text-container p {
+  margin-top: 30px;
+}
 /* SWOT */
+.swot-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../resources/swot-background.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.swot-main-text-container {
+  max-width: 600px;
+  margin-left: 50%;
+}
+.swot-main-text-container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  line-height: 75px;
+  padding-top: 25%;
+}
+.swot-main-text-container p {
+  margin-top: 30px;
+}
 .swot {
   display: flex;
   justify-content: center;
@@ -1215,6 +1259,29 @@ span.post-date {
   border-radius: 4px;
   background-color: rgb(106, 255, 135);
   margin: 10px;
+}
+/*  */
+.study-choice-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../resources/study-choice-background.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.study-choice-main-text-container {
+  max-width: 600px;
+  margin-left: 50%;
+}
+.study-choice-main-text-container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  line-height: 75px;
+  padding-top: 25%;
+}
+.study-choice-main-text-container p {
+  margin-top: 30px;
 }
 /*  */
 .others h1 {

@@ -1194,3 +1194,38 @@ span.post-date {
   background-color: rgb(106, 255, 135);
   margin: 10px;
 }
+.others h1 {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.others h2 {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.others-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.others-container a {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+.others-container a:hover {
+  color: rgb(21, 122, 41);
+}
+.others-container li {
+  margin-bottom: 30px;
+}
+.others-container li:last-child {
+  padding-bottom: 30px;
+}

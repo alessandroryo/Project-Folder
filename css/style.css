@@ -202,6 +202,9 @@ footer {
 .index-main-text-container p {
   margin-top: 30px;
 }
+.index-main-text-container a:hover{
+  background:rgb(21, 122, 41);
+}
 .index-main-image-container {
   position: absolute;
   left: 22%;
@@ -281,6 +284,9 @@ footer {
 .user-icon {
   opacity: 0;
   position: relative;
+}
+.opinion-image img {
+  width: 200px;
 }
 @media screen and (max-width: 768px) {
 }

@@ -105,6 +105,7 @@ nav ul li a:hover {
     visibility: unset;
   }
 }
+/* Footer */
 footer {
   position: absolute;
   background: black;
@@ -172,7 +173,7 @@ footer {
   opacity: 0.4;
   font-weight: 200;
 }
-/* Index Main Text */
+/* Index */
 .main-background {
   background-image: url(../resources/main-pattern.png);
 }
@@ -646,6 +647,7 @@ footer {
       top: -30px;
   }
 }
+/* Skill Bar */
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -698,6 +700,7 @@ footer {
 .leadership {
   width: 80%;
 }
+/* Photo Collage */
 .collage-container {
   /* position: absolute; */
   justify-content: center;
@@ -1063,7 +1066,7 @@ span.post-date {
     margin-bottom: 30px;
   }
 }
-/*  */
+/* Answer Section */
 .answer {
   width: 60%;
   margin: auto;
@@ -1145,7 +1148,7 @@ span.post-date {
     padding-top: 25%;
   }
 }
-/*  */
+/* ICT Field of Work */
 .ict-fow-header {
   min-height: 100vh;
   width: 100%;
@@ -1176,6 +1179,7 @@ span.post-date {
     width: 300px;
   }
 }
+/* Programming Experience */
 .prog-exp-header {
   min-height: 100vh;
   width: 100%;
@@ -1260,7 +1264,7 @@ span.post-date {
   background-color: rgb(106, 255, 135);
   margin: 10px;
 }
-/*  */
+/* Study Choice */
 .study-choice-header {
   min-height: 100vh;
   width: 100%;
@@ -1283,7 +1287,7 @@ span.post-date {
 .study-choice-main-text-container p {
   margin-top: 30px;
 }
-/*  */
+/* Others */
 .others h1 {
   width: 100%;
   align-items: center;

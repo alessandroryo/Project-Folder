@@ -1146,6 +1146,28 @@ span.post-date {
   }
 }
 /*  */
+.ict-fow-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../resources/ict-fow-background.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.ict-fow-main-text-container {
+  max-width: 600px;
+  margin-left: 50%;
+}
+.ict-fow-main-text-container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  line-height: 75px;
+  padding-top: 25%;
+}
+.ict-fow-main-text-container p {
+  margin-top: 30px;
+}
 .ict-fow-image {
   width: 400px;
 }

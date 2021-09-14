@@ -100,7 +100,7 @@ nav ul li a:hover {
       justify-content: space-evenly;
       z-index: 1;
       width: 80%;
-      transition: all 1s;
+      transition: all 0.4s;
       opacity: 0;
       visibility: hidden;
   }

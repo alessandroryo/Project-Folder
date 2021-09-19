@@ -1032,7 +1032,7 @@ section .faq {
 }
 span.post-date {
   font-weight: bold;
-  color: rgb(106, 255, 135);
+  color: gray;
 }
 .post-card a {
   text-decoration: none;
@@ -1044,7 +1044,7 @@ span.post-date {
   width: 70%;
   position: relative;
   border-radius: 4px;
-  background-color: rgb(106, 255, 135);
+  background-color: gray;
 }
 @media screen and (max-width: 786px) {
   .post-card {

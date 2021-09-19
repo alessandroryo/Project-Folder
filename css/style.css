@@ -470,7 +470,7 @@ footer {
 .edu-timeline ul li:last-child {
     margin-bottom: 0px;
 }
-.edu-timeline-content h1 {
+.edu-timeline-content h3 {
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
@@ -528,11 +528,9 @@ footer {
   }
   .edu-timeline ul li:nth-child(odd)::after {
       right: -40px;
-      transform: translateX(50%, -50%);
   }
   .edu-timeline ul li:nth-child(even)::after {
       left: -40px;
-      transform: translateX(-50%, -50%);
   }
   .edu-timeline ul li:hover::after {
       background-color: white;
@@ -569,7 +567,7 @@ footer {
 .org-timeline ul li:last-child {
     margin-bottom: 0px;
 }
-.org-timeline-content h1 {
+.org-timeline-content h3 {
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
@@ -633,11 +631,9 @@ footer {
   }
   .org-timeline ul li:nth-child(odd)::after {
       right: -40px;
-      transform: translateX(50%, -50%);
   }
   .org-timeline ul li:nth-child(even)::after {
       left: -40px;
-      transform: translateX(-50%, -50%);
   }
   .org-timeline ul li:hover::after {
       background-color: white;
@@ -859,13 +855,11 @@ footer {
   margin-bottom: 50px;
 }
 .nbsa-study-cards {
-  display: absolute;
   flex-direction: column;
   justify-content: space-evenly;
   width: 30%;
   color: black;
   margin: auto;
-  height: 9;
 }
 @media screen and (max-width: 576px) {
   .nbsa-study-cards {
@@ -993,7 +987,6 @@ section .faq {
 }
 .faq-answer p {
     color: black;
-    font-size: rem;
     padding: 2rem;
 }
 .faq-accordion-item:target .faq-answer {
@@ -1035,7 +1028,6 @@ section .faq {
 }
 .post-panel {
   padding: 5%;
-  box-shadow: rgba(221, 221, 221, 0.808);
   border-radius: 10px;
 }
 span.post-date {
@@ -1233,7 +1225,6 @@ span.post-date {
   padding-bottom: 30px;
 }
 .swot h2 {
-  display: absolute;
   justify-content: center;
   text-align: center;
   margin-bottom: 100px;
@@ -1244,7 +1235,8 @@ span.post-date {
  height: 280px;
  margin: 10px;
 }
-.swot-card h1 {
+.swot-card h4 {
+  font-size: 25px;
   margin-top: 10px;
   margin-left: 10px;
   color: black;

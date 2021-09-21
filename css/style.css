@@ -972,7 +972,7 @@ section .faq {
     background-color: whitesmoke;
     color:black;
     font-size: 0.8rem;
-    transition: max-height 650ms;
+    transition: 650ms;
 }
 .faq-answer::before {
     content: '';

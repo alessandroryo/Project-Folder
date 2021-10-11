@@ -199,14 +199,23 @@ footer {
 .index-main-text-container p {
   margin-top: 30px;
 }
+.index-main-text-container a{
+  background:white;
+  color: black;
+}
 .index-main-text-container a:hover{
-  background:rgb(21, 122, 41);
+  background:rgb(106, 255, 135);
 }
 .index-main-image-container {
   position: absolute;
   left: 22%;
   width: 300px;
   margin-top: -302px;
+}
+.index-main-image-container:hover {
+  background-color: black;
+  opacity: 0.8;
+  transition: 0.4s;
 }
 .index {
   width: 80%;
@@ -320,7 +329,6 @@ footer {
 /* Profile */
 .profile-header {
     min-height: 100vh;
-    width: 100%;
     background-color: white;
     background-position: center;
     background-size: cover;
@@ -489,7 +497,6 @@ footer {
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
     color: rgb(106, 255, 135);
 }
 @media only screen and (min-width: 768px) {
@@ -680,6 +687,7 @@ footer {
 }
 .skill-percent {
   font-size: 20px;
+  color: black;
 }
 .timemanagement {
   width: 80%;
@@ -1037,6 +1045,10 @@ span.post-date {
 .post-card a {
   text-decoration: none;
   color: black;
+}
+.post-card a:hover {
+  text-decoration: none;
+  color: rgb(21, 122, 41);
 }
 .post-breaker {
   display: inline-block;

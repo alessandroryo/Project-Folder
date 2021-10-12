@@ -192,7 +192,6 @@ footer {
 .index-main-text-container h1 {
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   line-height: 75px;
   padding-top: 25%;
 }
@@ -211,10 +210,11 @@ footer {
   left: 22%;
   width: 300px;
   margin-top: -302px;
+  transition: 0.4s;
 }
 .index-main-image-container:hover {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.85;
   transition: 0.4s;
 }
 .index {
@@ -345,7 +345,6 @@ footer {
 .profile-main-text-container h1 {
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     line-height: 50px;
     word-wrap:normal;
 }
@@ -593,7 +592,6 @@ footer {
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
     color: rgb(106, 255, 135);
 }
 .org-title h4, .edu-title h4 {
@@ -1147,7 +1145,6 @@ span.post-date {
   .answer-title h1 {
     font-size: 60px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
     line-height: 55px;
     padding-top: 25%;
   }
@@ -1168,7 +1165,6 @@ span.post-date {
 .ict-fow-main-text-container h1 {
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   line-height: 75px;
   padding-top: 25%;
 }
@@ -1199,7 +1195,6 @@ span.post-date {
 .prog-exp-main-text-container h1 {
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   line-height: 75px;
   padding-top: 25%;
 }
@@ -1222,7 +1217,6 @@ span.post-date {
 .swot-main-text-container h1 {
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   line-height: 75px;
   padding-top: 25%;
 }
@@ -1284,7 +1278,6 @@ span.post-date {
 .study-choice-main-text-container h1 {
   font-size: 80px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   line-height: 75px;
   padding-top: 25%;
 }
